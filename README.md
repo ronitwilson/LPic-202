@@ -9,3 +9,4 @@ $ cat /etc/resolv.conf
 search departmentA.org departmentB.org
 nameserver 8.8.8.8
 ```
+* When the resolver tries to resolve a domain name nodeA, it will first form the FQDN using departmentA.org into nodeA.departmentA.org a
