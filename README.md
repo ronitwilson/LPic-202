@@ -15,3 +15,4 @@ nameserver 8.8.8.8
   * domain name to ip
   * ip to domain name
 
+* tools like bind dnsmasq are dns resovlers installed in the linux pc, for local dns caching forewarding
