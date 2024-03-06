@@ -15,4 +15,8 @@ nameserver 8.8.8.8
   * domain name to ip
   * ip to domain name
 
-* tools like bind dnsmasq are dns resovlers installed in the linux pc, for local dns caching forewarding
+* tools like **bind** **dnsmasq** are dns resovlers installed in the linux pc, for local dns caching, forewarding etc
+* For bing dns listens on port 53 by default, defined in file vi /etc/named.conf
+![image](https://github.com/ronitwilson/LPic-202/assets/9934360/d1c138a5-2cb5-4b20-8b94-db536b365b21)
+* what is dump-file ? kind of used for debugging i think
+ * gets generated when using rndc command
