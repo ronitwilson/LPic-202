@@ -23,4 +23,7 @@ nameserver 8.8.8.8
 
 # 16-03-24
 * **rndc**,
-* ability to use tcp to communicate with a remote name servier and send cmds authenticated with digital signature
+* ability to use tcp to communicate with a remote name servier and send cmds authenticated** with digital signature**
+* use this rndc to control the nameD service
+* this depends on the /etc/rndc file
+* 
