@@ -29,4 +29,8 @@ nameserver 8.8.8.8
 * rndc-cofgen -> command to create the conf file
  *  this generated conf file with keys must be mapped to nameD service conf in /etc/named.conf
  *  rndc conf file must have the right permissions
- *  
+
+# 26-03-24
+* dig commnad
+* /etc/resolv.conf -> shows which dns resolver to use
+* dig @localhost cnn.com -> force dig to use localhost to resolve for dns
