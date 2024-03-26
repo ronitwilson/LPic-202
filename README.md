@@ -35,3 +35,4 @@ nameserver 8.8.8.8
 * /etc/resolv.conf -> shows which dns resolver to use
 * dig @localhost cnn.com -> force dig to use localhost to resolve for dns
 * rndc flush <domain name>
+* there is a bin /sbin/named-checkconf -> verifies syntax of named.conf 
