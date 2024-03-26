@@ -34,3 +34,4 @@ nameserver 8.8.8.8
 * dig commnad
 * /etc/resolv.conf -> shows which dns resolver to use
 * dig @localhost cnn.com -> force dig to use localhost to resolve for dns
+* rndc flush domain name
