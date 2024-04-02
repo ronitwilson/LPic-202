@@ -35,4 +35,13 @@ nameserver 8.8.8.8
 * /etc/resolv.conf -> shows which dns resolver to use
 * dig @localhost cnn.com -> force dig to use localhost to resolve for dns
 * rndc flush <domain name>
-* there is a bin /sbin/named-checkconf -> verifies syntax of named.conf 
+* there is a bin /sbin/named-checkconf -> verifies syntax of named.conf
+* dns zones
+ *  zone defines what a domain name server has authority over
+  * foreward zone and reverse zone 
+
+
+# 01-04-24
+* dns record types
+* SOA - Start of Authority, A record (host to ip), cname alias  to a record name server
+  ![image](https://github.com/ronitwilson/LPic-202/assets/9934360/9ac29b00-0ad8-4d0d-a192-07a81e901ff3)
