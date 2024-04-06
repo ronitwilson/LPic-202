@@ -52,4 +52,5 @@ nameserver 8.8.8.8
 
 # 05-04-24
 * named-checkzone -> check your zone files for the right syntax
-* 
+* named-compilezone -> covert named zone file to compiled zone
+ * if we use binary format we need to change the masterfile-format
