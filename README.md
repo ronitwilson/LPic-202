@@ -62,3 +62,13 @@ nameserver 8.8.8.8
         * can choose things like debug level
         * can choose maxclients
 * use of **Lynx** command line http browser
+
+# Hosting dynamic web applications
+* there are moudles which are installed into the httpd
+  * these are present in the moudles folder with file name similar to mod-modulename.so
+  * There are then conf files for these modules which five customization options
+* The Common Gateway Interface
+    * The way to  invoke another program to process some code
+    *  The CGI feature uses the filename extension to detect when a web page file has embedded code, and then it passes the file off to an external program language interpreter based on the filename extension
+    *  To make use of it the CGI module must be installed
+*  
