@@ -20,7 +20,7 @@ nameserver 8.8.8.8
 ![image](https://github.com/ronitwilson/LPic-202/assets/9934360/d1c138a5-2cb5-4b20-8b94-db536b365b21)
 * what is dump-file ? kind of used for debugging i think
  * gets generated when using rndc command
-
+    
 # 16-03-24
 * **rndc**,
 * ability to use tcp to communicate with a remote name servier and send cmds authenticated ** with digital signature**
@@ -47,10 +47,18 @@ nameserver 8.8.8.8
   ![image](https://github.com/ronitwilson/LPic-202/assets/9934360/9ac29b00-0ad8-4d0d-a192-07a81e901ff3)
   ![image](https://github.com/ronitwilson/LPic-202/assets/9934360/9eda4f9e-81e3-48fb-92c9-10a96ad9bc1e)
 
-## Implementing a webserver
-
 
 # 05-04-24
 * named-checkzone -> check your zone files for the right syntax
 * named-compilezone -> covert named zone file to compiled zone
- * if we use binary format we need to change the masterfile-format
+  * if we use binary format we need to change the masterfile-format
+
+# 18-04-24
+* The usage of httpd
+    * /etc/httpd
+    * httpd.conf
+        * ServerRoot - base directory for config files
+        * DocumentRoot -> base directory for document files files
+        * can choose things like debug level
+        * can choose maxclients
+* use of **Lynx** command line http browser
