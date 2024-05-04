@@ -83,4 +83,5 @@ nameserver 8.8.8.8
 ## Using virtual servers
 * Having more than one website in one physical server
 * Configuring which files belong to which website
-* We can have more than 1 ip address to a single webserver
+* We can have more than 1 ip address to a single webserver to serve the right website
+* Or use diff domain name
