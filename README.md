@@ -85,3 +85,7 @@ nameserver 8.8.8.8
 * Configuring which files belong to which website
 * We can have more than 1 ip address to a single webserver to serve the right website
 * Or use diff domain name
+
+#### Example of using a domian name to serve a wesite
+* Notice the Document Root shows which files are used
+![image](https://github.com/ronitwilson/LPic-202/assets/9934360/e3717161-32a5-409f-bcaa-dfe5665fdc30)
