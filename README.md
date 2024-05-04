@@ -77,4 +77,5 @@ nameserver 8.8.8.8
 ##  using htpasswd and mod_auth
 * mod_auth module needs to be installed and the httpd conf has to have a entry to use the authentication to refer to the password file
 * Use the httpasswd tool to create the password file
-* 
+
+### option to use .htaccess directive in the config
