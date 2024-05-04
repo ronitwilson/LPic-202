@@ -87,5 +87,6 @@ nameserver 8.8.8.8
 * Or use diff domain name
 
 #### Example of using a domian name to serve a wesite
+* create file inside /etc/apache2/sites-available
 * Notice the Document Root shows which files are used
 ![image](https://github.com/ronitwilson/LPic-202/assets/9934360/e3717161-32a5-409f-bcaa-dfe5665fdc30)
