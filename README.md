@@ -72,3 +72,9 @@ nameserver 8.8.8.8
     *  The CGI feature uses the filename extension to detect when a web page file has embedded code, and then it passes the file off to an external program language interpreter based on the filename extension
     *  To make use of it the CGI module must be installed
 *  
+
+# 4-may-24
+##  using htpasswd and mod_auth
+* mod_auth module needs to be installed and the httpd conf has to have a entry to use the authentication to refer to the password file
+* Use the httpasswd tool to create the password file
+* 
