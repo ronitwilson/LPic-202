@@ -79,3 +79,8 @@ nameserver 8.8.8.8
 * Use the httpasswd tool to create the password file
 
 ### option to use .htaccess directive in the config
+
+## Using virtual servers
+* Having more than one website in one physical server
+* Configuring which files belong to which website
+* We can have more than 1 ip address to a single webserver
