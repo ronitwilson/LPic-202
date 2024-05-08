@@ -94,4 +94,14 @@ nameserver 8.8.8.8
 
 # 8-may-24
 ## Using ssl with Apache
-* 
+* SSL have been replaced by TLS
+* Inside /etc/ssl
+  * There is certs folder -> all certs we trust
+  * private -> all our gen certs
+* Creating a certificate using openssl
+  * creating private key
+  * creating a certificate signed request
+  * creating a certifcate
+* Attach it to apache server
+### Example screenshot
+
