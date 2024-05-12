@@ -104,4 +104,10 @@ nameserver 8.8.8.8
   * creating a certifcate
 * Attach it to apache server
 ### Example screenshot
+![image](https://github.com/ronitwilson/LPic-202/assets/9934360/d3913077-8b7f-47fb-8ed0-2c2f21437da3)
+
+
+# 12 may redirect website from apache
+### Example screenshot
+![image](https://github.com/ronitwilson/LPic-202/assets/9934360/78402d30-66c5-4853-b1fa-98eda70e1f2a)
 
