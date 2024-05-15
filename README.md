@@ -115,5 +115,6 @@ nameserver 8.8.8.8
 ## Using a reverse proxy squid
 ### protecting the clients which does the request
 * Squid was initally ment to be a cache proxy
-* There are acl to control access to the sites from domain or ip
+* There are acl to control access to the sites to domain(dstdomain) or ip(source)
+* we can set the time where it can connect to the sites
 * 
