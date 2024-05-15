@@ -111,3 +111,9 @@ nameserver 8.8.8.8
 ### Example screenshot
 ![image](https://github.com/ronitwilson/LPic-202/assets/9934360/78402d30-66c5-4853-b1fa-98eda70e1f2a)
 
+# 15-05-24
+## Using a reverse proxy squid
+### protecting the clients which does the request
+* Squid was initally ment to be a cache proxy
+* There are acl to control access to the sites from domain or ip
+* 
