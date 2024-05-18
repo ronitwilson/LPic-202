@@ -117,4 +117,8 @@ nameserver 8.8.8.8
 * Squid was initally ment to be a cache proxy
 * There are acl to control access to the sites to domain(dstdomain) or ip(source)
 * we can set the time where it can connect to the sites
+* apache virtual hosts is nothing but we can serve seperately several websites for diff ip:port combination
 * 
+## Using a NGINX 
+* nginx can be used as a server and reverse proxy
+* Similar to apache conf 
