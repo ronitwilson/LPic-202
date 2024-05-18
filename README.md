@@ -124,8 +124,10 @@ nameserver 8.8.8.8
   *  Is to look at the /usr/lib/squid/ folder
 
 #### LDAP and Active directory
-* Lightweight Directory Access Protocol LDAP is a protocol that makes it possible for applications to query user information rapidly.Companies store usernames, passwords, email addresses, printer connections, and other static data within directories  it iss an open, vendor-neutral application protocol for accessing and maintaining that data. 
-* Active Directory is a proprietary directory tool that is used to organize IT assets, such as computers, printers, and users. As a Microsoft product, it’s commonly used within the Windows environment. If you have ever worked with Windows on a network, this system underpins some of the data.
+* **Lightweight Directory Access Protocol LDAP** is a protocol that makes it possible for applications to query user information rapidly.Companies store usernames, passwords, email addresses, printer connections, and other static data within directories  it iss an open, vendor-neutral application protocol for accessing and maintaining that data. 
+* **Active Directory** is a proprietary directory tool that is used to organize IT assets, such as computers, printers, and users. It can be used for authentication, and/or storing information about network resources. LDAP is one of the protocols that is used to create or query objects in Active Directory., LDAP is a language to talk to directory services, and Active Directory is one such directory service
+
+
 
 ## Using a NGINX 00000000
 * nginx can be used as a server and reverse proxy
