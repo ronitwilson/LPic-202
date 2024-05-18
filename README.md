@@ -118,7 +118,15 @@ nameserver 8.8.8.8
 * There are acl to control access to the sites to domain(dstdomain) or ip(source)
 * we can set the time where it can connect to the sites
 * apache virtual hosts is nothing but we can serve seperately several websites for diff ip:port combination
-* 
-## Using a NGINX 
+
+### Various authentication from squid
+* One way to look for squid libs which are installed(to know the authentication types which are supported)
+  *  Is to look at the /usr/lib/squid/ folder
+
+#### LDAP and Active directory
+* Lightweight Directory Access Protocol LDAP is a protocol that makes it possible for applications to query user information rapidly.Companies store usernames, passwords, email addresses, printer connections, and other static data within directories  it iss an open, vendor-neutral application protocol for accessing and maintaining that data. 
+* Active Directory is a proprietary directory tool that is used to organize IT assets, such as computers, printers, and users. As a Microsoft product, it’s commonly used within the Windows environment. If you have ever worked with Windows on a network, this system underpins some of the data.
+
+## Using a NGINX 00000000
 * nginx can be used as a server and reverse proxy
 * Similar to apache conf 
