@@ -127,8 +127,12 @@ nameserver 8.8.8.8
 * **Lightweight Directory Access Protocol LDAP** is a protocol that makes it possible for applications to query user information rapidly.Companies store usernames, passwords, email addresses, printer connections, and other static data within directories  it iss an open, vendor-neutral application protocol for accessing and maintaining that data. 
 * **Active Directory** is a proprietary directory tool that is used to organize IT assets, such as computers, printers, and users. It can be used for authentication, and/or storing information about network resources. LDAP is one of the protocols that is used to create or query objects in Active Directory., LDAP is a language to talk to directory services, and Active Directory is one such directory service
 
+#### using bssic auth pic
+![image](https://github.com/ronitwilson/LPic-202/assets/9934360/c6d4cfab-fa38-4a30-9ed1-b30c7e36c4f0)
 
 
-## Using a NGINX 00000000
+
+
+## Using a NGINX
 * nginx can be used as a server and reverse proxy
 * Similar to apache conf 
