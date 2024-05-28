@@ -152,6 +152,6 @@ nameserver 8.8.8.8
 * Make use of HTTP extra headers to foreward this information
 
 #### example of configuring the HTTP header forwarding
+![image](https://github.com/ronitwilson/LPic-202/assets/61230302/21e72744-b19e-4bc4-8ee8-1dbe59d1ee28)
 
-* 
 
