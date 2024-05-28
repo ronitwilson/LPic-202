@@ -135,4 +135,23 @@ nameserver 8.8.8.8
 
 ## Using a NGINX
 * nginx can be used as a server and reverse proxy
-* Similar to apache conf 
+* Similar to apache conf
+
+# 27-may NGINX as reverse proxy
+### Main use case
+* It helps in caching
+* Services like Aws cloud front (Content delivery nodes) are nothing but NGINX servers
+
+### Other use cases
+* Provides an entry point example things can connect in https or a particular port till nginx and from ngingx can be http etc
+* Reduces the surface of attack area for security, since only Nginx is exposed outside
+* Can provide load balancing
+
+### disadvantage
+* Not all information about the client reaches the backend since the nginx is the one who forwards the packtes
+* Make use of HTTP extra headers to foreward this information
+
+#### example of configuring the HTTP header forwarding
+
+* 
+
