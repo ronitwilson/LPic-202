@@ -166,3 +166,5 @@ nameserver 8.8.8.8
 ### add picture at 11:40 mins
 pass
 
+## DHCP multiple subnets
+ * we can configure more than one subnet, based on the adapter on which the dhcp request comes, it gives the IP based on the iP subnet on which the adapter IP is run
