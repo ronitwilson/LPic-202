@@ -168,3 +168,6 @@ pass
 
 ## DHCP multiple subnets
  * we can configure more than one subnet, based on the adapter on which the dhcp request comes, it gives the IP based on the iP subnet on which the adapter IP is run
+ * We can also configure one specific for a mac
+
+## example at 15:00 pins
