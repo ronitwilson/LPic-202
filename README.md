@@ -155,3 +155,14 @@ nameserver 8.8.8.8
 ![image](https://github.com/ronitwilson/LPic-202/assets/61230302/21e72744-b19e-4bc4-8ee8-1dbe59d1ee28)
 
 
+# 13-jun DHCP
+  * Mostly DHCP is not installed by default
+  * Many libs are there the most popular one ISC DHCP
+  * The reference conf is there in /usr/share/doc/isc-dhcp-server/examples/server.conf
+  * but it should be placed at /etc/dhcpsd
+  * the /var/lib/dhcp/dhcp.leases to see the ip leases
+  * The dhcp uses udp at port 67
+
+### add picture at 11:40 mins
+pass
+
