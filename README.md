@@ -163,11 +163,13 @@ nameserver 8.8.8.8
   * the /var/lib/dhcp/dhcp.leases to see the ip leases
   * The dhcp uses udp at port 67
 
-### add picture at 11:40 mins
-pass
+### example
+![image](https://github.com/ronitwilson/LPic-202/assets/9934360/641bedb8-40e0-4c18-84f7-a9620d6adaaf)
+
 
 ## DHCP multiple subnets
  * we can configure more than one subnet, based on the adapter on which the dhcp request comes, it gives the IP based on the iP subnet on which the adapter IP is run
  * We can also configure one specific for a mac
 
-## example at 15:00 pins
+### example
+![image](https://github.com/ronitwilson/LPic-202/assets/9934360/83431a7a-5387-4b03-9916-f9435490e10e)
