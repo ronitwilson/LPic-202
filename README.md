@@ -183,5 +183,15 @@ nameserver 8.8.8.8
     * phpldapadmin -> GUI for ldap
     
     
+## OpenLdap other info
+OpenLdap which is a protocol for accessing and maintaining distributed directory information services over an Internet Protocol (IP) network.
+Common use cases
+  * User Authentication
+  * SSO
+  * Directory Serivces -> address book, org info
+  * Can store DNS info
+  * Role based access control (RBAC)
+  * Configuration management
+
 
 
