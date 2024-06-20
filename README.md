@@ -173,3 +173,15 @@ nameserver 8.8.8.8
 
 ### example
 ![image](https://github.com/ronitwilson/LPic-202/assets/9934360/83431a7a-5387-4b03-9916-f9435490e10e)
+
+# 20-jun OpenLdap
+    * use it si like a database directory kindof access for authentication/authorization
+    * Involves the use of slapd
+    * can configure  slapd config 
+        * use of slapcat to vie config
+        * use of **dpkg-reconfigure slapd**
+    * phpldapadmin -> GUI for ldap
+    
+    
+
+
