@@ -193,5 +193,9 @@ Common use cases
   * Role based access control (RBAC)
   * Configuration management
 
-
+## openldap security
+  * security we can use the openssl way of generating certificates
+  * SASL ->  Simple Authentication and Security Layer (SASL)
+    * SASL is integrated with LDAP for security purposes
+    *  When developing custom protocols that require secure authentication and encrypted communication, integrating SASL provides a standardized approach to support multiple authentication mechanisms.
 
