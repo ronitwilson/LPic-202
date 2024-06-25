@@ -199,3 +199,16 @@ Common use cases
     * SASL is integrated with LDAP for security purposes
     *  When developing custom protocols that require secure authentication and encrypted communication, integrating SASL provides a standardized approach to support multiple authentication mechanisms.
 
+## openldap client connection
+    * We can use a **PAM module** (Pluggable authentication module) normally available in linux distribution to connect
+        * The PAM mode can be used with other services like active directory, **MFA** etc
+### Overview
+Having a pc with the openldap client connected to the openldap server allows a user present in the openldap server to connect to that pc.
+This means we can have users setup in the openldap server and many pcs can use that for user login, no need to setup seperate users in each PC
+
+### Other libs
+* Install packages -> libnss libpam etc -> st ip domain name and chose passwd,group and shadow in the menuconfig
+* Enable home dir in PAM using pa_mkhomedir.so
+* Enable TL using /etc/nslcd.conf -> ssl start_tls , tls_reqcert allow
+* 
+    * 
