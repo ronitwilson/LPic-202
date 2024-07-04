@@ -52,3 +52,12 @@
   ` sudo iptables -A FORWARD -i enp0s6 -o enp0s5 -p tcp --syn --dport 3306 -mconntrack --ctstate NEW -j ACCEPT `
 * Followup command once connection established
   ` iptables -A FORWARD -i enp0s6 -o enp0s5 -m conntrack --ctstateESTABLISHED,RELATED -j ACCEPT`
+
+##### Destination nat
+* This matches the port of router to the destination pc with port
+` sudo iptables -t nat -A PREROUTING -i enp0s6 -p tcp --dport 3306 -jDNAT --to-destination 10.222.0.50 `
+
+##### Source nat
+* Induvidula nat if global nat off
+* `sudo iptables -t nat -A POSTROUTING -o enp0s5 -p tcp --dport 3306 -d 10.222.0.50 -j SNAT --to-source 10.222.0.51 `
+
