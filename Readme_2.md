@@ -36,3 +36,9 @@
   
   - Save configuration
     - `sudo iptables-save | sudo tee /etc/iptables/rules.v4`
+
+##  4 July port forwarding IP tables
+- Connection tracking
+- Destination NAT
+- Source NAT
+
