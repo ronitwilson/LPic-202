@@ -38,7 +38,14 @@
     - `sudo iptables-save | sudo tee /etc/iptables/rules.v4`
 
 ##  4 July port forwarding IP tables
+### Scenario a server is on private network, it has to be used from public network
+#### Important steps
 - Connection tracking
+  -  Important to know which req came from whom
 - Destination NAT
 - Source NAT
 
+##### Connection tracking
+* Configuring NAT as in above already does some session tracking, but in bulk(general)
+* Session tracking for a particular port is needed
+` sudo iptables -A FORWARD -i enp0s6 -o enp0s5 -p tcp --syn --dport 3306 -mconntrack --ctstate NEW -j ACCEPT `
