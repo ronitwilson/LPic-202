@@ -48,4 +48,7 @@
 ##### Connection tracking
 * Configuring NAT as in above already does some session tracking, but in bulk(general)
 * Session tracking for a particular port is needed
-` sudo iptables -A FORWARD -i enp0s6 -o enp0s5 -p tcp --syn --dport 3306 -mconntrack --ctstate NEW -j ACCEPT `
+  * Initial command to set it up
+  ` sudo iptables -A FORWARD -i enp0s6 -o enp0s5 -p tcp --syn --dport 3306 -mconntrack --ctstate NEW -j ACCEPT `
+* Followup command once connection established
+  ` iptables -A FORWARD -i enp0s6 -o enp0s5 -m conntrack --ctstateESTABLISHED,RELATED -j ACCEPT`
